@@ -59,20 +59,4 @@ function check() {
 
 
 
-  const form = document.getElementById("form");
-  form.addEventListener("submit", formSubmit);
-
-  function formSubmit(e) {
-      e.preventDefault();
-      const formData = new FormData(e.target);
-
-      fetch("https://getform.io/f/121fffe2-aaa8-47d2-bc83-66252f74fd9d", {
-          method: "POST",
-          body: formData,
-          headers: {
-              "Accept": "application/json",
-          },
-      })
-      .then(response => console.log(response))
-      .catch(error => console.log(error))
-  }
+  
