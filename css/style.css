@@ -756,7 +756,7 @@ justify-content: space-evenly;
 
    .box { display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top:10px;
     text-align: center;
     left:80px;
@@ -776,7 +776,7 @@ justify-content: space-evenly;
      margin-top: 500px; 
      
     animation: zoomIn;
-    animation-duration: .44s;
+    animation-duration: .20s;
   
     }
 
@@ -793,7 +793,7 @@ justify-content: space-evenly;
     animation: loop 10s infinite linear;
     padding:10px;
     width: max-content;
-    position: absolute;
+    position: fixed;
     top:600px;
    
 
