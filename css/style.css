@@ -823,6 +823,7 @@ justify-content: space-evenly;
     align-content: center;
     text-align: center;
     align-items: center;
+    justify-content: space-evenly;
     gap:10px;
   }
   #background-video2 {
@@ -864,14 +865,9 @@ justify-content: space-evenly;
   
     }
 
-
-    input { 
-      box-sizing: border-box; 
-      border-radius: 8px;
-   
-
-    
-     }
+    .form-check {
+      justify-content: space-evenly;
+  }
 
      .horizontalscroller {
       display: flex;
@@ -1578,3 +1574,7 @@ header {
     
   }}
     
+
+    
+
+  
