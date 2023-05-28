@@ -748,6 +748,23 @@ justify-content: space-evenly;
   }
 
 
+    
+    .box h1 { 
+    font-size: 60px;
+     color: rgb(255, 255, 255); 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-shadow: 2px 1px gray ;
+    letter-spacing: 5px;
+     margin-top:-300px; 
+        margin-left:100px;
+    animation: zoomIn;
+ 
+    animation-duration: .44s;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    }
 
   /* video is enabled on mobile view */
   #background-video { display: none;}
