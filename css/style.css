@@ -741,6 +741,12 @@ justify-content: space-evenly;
   z-index: -1;
 
   }
+    
+    
+     .image h2 {
+    top:400px;
+  }
+
 
 
   /* video is enabled on mobile view */
@@ -1191,7 +1197,7 @@ h3 {
   margin: 0 auto;
   
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
         }
 
  .formbox h4{ 
