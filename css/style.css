@@ -961,6 +961,9 @@ input[type=date] {
     width: 100vw;
     
   }
+     .parallax3 {
+          z-index:-1;
+    }
   
   .contactus { position:absolute;
     font-size:16px;
@@ -1000,11 +1003,11 @@ backdrop-filter: none;}
 }
 #menu-bar {
   width: 20px;
-  height: 15px;
+
   margin: 30px 0 20px 20px;
   cursor: pointer;
   
-  padding: 18px;
+  padding: 10px;
   text-align: center;
   align-items: center;
  
@@ -1091,7 +1094,7 @@ backdrop-filter: none;}
 }
 
 .change #bar1 {
-  transform: translateY(4px) rotateZ(-45deg);
+  transform: translateY(1px) rotateZ(-45deg);
 }
 
 .change #bar2 {
@@ -1099,7 +1102,7 @@ backdrop-filter: none;}
 }
 
 .change #bar3 {
-  transform: translateY(-6px) rotateZ(45deg);
+  transform: translateY(-5px) rotateZ(45deg);
 }
 
 .change-bg {
@@ -1112,7 +1115,8 @@ backdrop-filter: none;}
 
 }
 
-nav#nav.nav.change{ font-size: 50px; 
+nav#nav.nav.change{ 
+    font-size: 35px; 
   margin: auto;
  width: 100vw;
 }
