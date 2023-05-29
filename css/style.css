@@ -1065,6 +1065,7 @@ backdrop-filter: none;}
   height: 100%;
   margin: 100px 200px 50px 200px;
   backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
   
   
   
@@ -1098,6 +1099,7 @@ backdrop-filter: none;}
   height: 1000px;
   transform: translate(-60%,-30%);
   backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
 nav#nav.nav.change{ font-size: 50px; 
