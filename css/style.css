@@ -898,20 +898,12 @@ input[type=date] {
     
     animation-duration: .20s;
     
-    /* align-items: center; */
+ 
 
   
     }
     
-    .imageawards {
-        gap:40px;
-    }
-    
- .imageawards img {
-    height: 200px;
-    width: auto;
    
-}
     
 
 
@@ -1344,14 +1336,13 @@ h3 {
 form { font-size: 16px;}
 
 
-textarea { width:250px; }
+textarea { width:300px; }
 
  input[type=submit] {   
   background-image: none;
   box-sizing: border-box;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px 5px;
   transition: 0.5s;
   color: rgb(0, 0, 0);            
   border-radius: 8px;
@@ -1481,7 +1472,7 @@ cursor: pointer;
         width: 1000;
         height: 800%;
         margin: 100px 200px 50px 200px;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(15px);
         
         
         border-radius: 2%;
@@ -1514,6 +1505,7 @@ cursor: pointer;
         width: 1500px;
         height: 1500px;
         transform: translate(-60%,-30%);
+          
         
       }
       
