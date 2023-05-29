@@ -832,7 +832,7 @@ justify-content: space-evenly;
     text-align: center;
     align-items: center;
     
-    gap:10px;
+    gap:none;
   }
   #background-video2 {
     
@@ -872,6 +872,10 @@ justify-content: space-evenly;
 
   
     }
+    
+    .imageawards img{  height: 200px;
+        width: 200px;
+    overflow-x:hidden;}
 
     
 
@@ -1301,13 +1305,16 @@ h3 {
 
  .formbox h4{ 
   font-size: 16px;
-   letter-spacing: 2px;
+     text-shadow: none;
+   letter-spacing: 5px;
+     margin: 1px 20px 1px 20px;
+}
   }
 
 form { font-size: 16px;}
 
 
-textarea { width:300px; }
+textarea { width:250px; }
 
  input[type=submit] {   
   background-image: none;
@@ -1323,6 +1330,7 @@ textarea { width:300px; }
   border-color: #000000; 
   opacity: 80%;    
   padding:10px 20px;  
+   -webkit-appearance: none;
   }
         
 input[type=submit]:hover { 
@@ -1330,27 +1338,28 @@ input[type=submit]:hover {
   text-decoration: none;
   opacity: 100%;
   border-style:double;
-cursor: pointer; }
+cursor: pointer; 
+    -webkit-appearance: none;}
 
 
 input[type=text] {
   
-  width: 300px;
+  width: 250px;
 }
    
 input[type=email] {
   
-  width: 300px;
+  width: 250px;
 }
 
 
 input[type=number] {
   
-  width: 300px;
+  width: 250px;
 }
 input[type=date] {
   
-  width: 300px;
+  width: 250px;
     
 }
 
