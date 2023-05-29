@@ -6,6 +6,10 @@
 
 }
 
+body { 
+    margin:0 
+}
+
 /*sections styling */
 
 
@@ -695,6 +699,7 @@ align-items: center;}
     padding:20px;
     border-radius: 20px;
        margin:auto;
+      resize: none;
   }
         
 input[type=submit]:hover { 
@@ -1006,11 +1011,11 @@ backdrop-filter: none;}
 
 
 .bar {
-  height: 5px;
+  height: 3px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: rgb(228, 228, 228);
   display: block;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: 0.3s ease; 
 }
 
@@ -1063,8 +1068,10 @@ backdrop-filter: none;}
   z-index: 1;
   width: 200;
   height: 100%;
-  margin: 100px 200px 50px 200px;
-  backdrop-filter: blur(2px);
+    transition: 0.3s ease;
+    opacity: 80%;
+    background-color: black;
+
     -webkit-backdrop-filter: blur(10px);
   
   
