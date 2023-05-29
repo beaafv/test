@@ -9,12 +9,6 @@
 /*sections styling */
 
 
-
-
-
-  
-
-
 .contactus p 
   {
     overflow: hidden; 
@@ -697,7 +691,7 @@ align-items: center;}
   }
 
   textarea {
-    width: 500px;
+    width: 100%;
     padding:20px;
     border-radius: 20px;
        margin:auto;
@@ -715,7 +709,7 @@ cursor: pointer; }
 
 input[type=text] {
   
-  width: 400px;
+  width: 100%;
   border-radius: 20px;
   padding:10px;
   margin:auto;
@@ -723,7 +717,7 @@ input[type=text] {
    
 input[type=email] {
   
-  width: 500px;
+  width: 100%;
   border-radius: 20px;
   padding:10px;
   margin:auto;
@@ -733,14 +727,14 @@ input[type=email] {
 
 input[type=number] {
   
-  width: 500px;
+  width: 100%;
   border-radius: 20px;
   padding:10px;
   margin:auto;
 }
 input[type=date] {
   
-  width: 500px;
+  width: 100p%;
   border-radius: 20px;
   padding:10px;
   margin:auto;
@@ -823,7 +817,10 @@ justify-content: space-evenly;
 
 @media only screen and (max-width:600px) { 
     
-    
+    input[type="submit"i] {
+    background-color: white;
+   
+}
     
 input[type=text] {
   
@@ -852,7 +849,7 @@ input[type=number] {
 }
 input[type=date] {
   
-  width: 200px;
+  width: 300px;
   border-radius: 20px;
   padding:10px;
  
@@ -900,17 +897,20 @@ input[type=date] {
     animation: zoomIn;
     
     animation-duration: .20s;
-    width: 100vw;
-    height: 100vh;
+    
     /* align-items: center; */
 
   
     }
     
+    .imageawards {
+        gap:40px;
+    }
+    
  .imageawards img {
-    height: AUTO;
-    width: 500px;
-    overflow-x: hidden;
+    height: 200px;
+    width: auto;
+   
 }
     
 
@@ -922,7 +922,7 @@ input[type=date] {
     padding: 10px;
     width: max-content;
    
-    top: -1000px;
+ 
   }
 
   
