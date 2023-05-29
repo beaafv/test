@@ -930,7 +930,7 @@ justify-content: space-evenly;
      text-transform: uppercase;
   letter-spacing: 5px; 
   bottom: 50px; 
-left:80px;
+left:10px;
 backdrop-filter: none;}
   
   
@@ -1080,9 +1080,6 @@ nav#nav.nav.change{ font-size: 50px;
    }
 
 
-
-ul:hover li a{
-  background-color: darkseagreen;}
 
 
 
@@ -1338,30 +1335,12 @@ cursor: pointer;
     -webkit-appearance: none;}
 
 
-input[type=text] {
-  
-  width: 250px;
-}
-   
-input[type=email] {
-  
-  width: 250px;
-}
 
 
-input[type=number] {
-  
-  width: 250px;
-}
-input[type=date] {
-  
-  width: 250px;
-    
-}
 
 .footer {
   justify-content: space-evenly; 
-  padding-top:20px; 
+  padding-top:10px; 
 }
     
 
