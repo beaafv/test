@@ -715,7 +715,7 @@ cursor: pointer; }
 
 input[type=text] {
   
-  width: 500px;
+  width: 400px;
   border-radius: 20px;
   padding:10px;
   margin:auto;
@@ -1068,8 +1068,7 @@ backdrop-filter: none;}
   width: 600px;
   height: 1000px;
   transform: translate(-60%,-30%);
-    
-  backdrop-filter: blur(5px)
+  backdrop-filter: blur(15px);
 }
 
 nav#nav.nav.change{ font-size: 50px; 
@@ -1291,13 +1290,11 @@ h3 {
   box-sizing: border-box;
   border: 1px #ffffff; 
   gap:10px;
-
   height:auto; 
   border-radius: 10px;
   opacity: 80%;
   text-align: center;
   margin: 0 auto;
-  
   margin-bottom: 20px;
  
         }
