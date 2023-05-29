@@ -89,7 +89,7 @@ body {
   display: flex; flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
- 
+ z-index:-1;
   position: relative;
   background-attachment: fixed;
 }
@@ -739,7 +739,7 @@ input[type=number] {
 }
 input[type=date] {
   
-  width: 100p%;
+  width: 500px;
   border-radius: 20px;
   padding:10px;
   margin:auto;
@@ -962,7 +962,7 @@ input[type=date] {
     
   }
      .parallax3 {
-          z-index:-1;
+          z-index: -1;
     }
   
   .contactus { position:absolute;
@@ -1505,7 +1505,7 @@ cursor: pointer;
       }
       
       .change #bar1 {
-        transform: translateY(4px) rotateZ(-45deg);
+        transform: translateY(1px) rotateZ(-45deg);
       }
       
       .change #bar2 {
@@ -1513,7 +1513,7 @@ cursor: pointer;
       }
       
       .change #bar3 {
-        transform: translateY(-6px) rotateZ(45deg);
+        transform: translateY(-5px) rotateZ(45deg);
         color: white;
       }
       
