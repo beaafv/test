@@ -54,7 +54,18 @@ function check() {
   function myFunction () {
     document.getElementById("Gold").checked = true; 
     
-  }
+  };
+
+  document.querySelector('.button123')
+  .addEventListener(
+    'touchstart',
+    function(e) {
+      document.getElementById("Gold").checked = true;
+      e.preventDefault()
+    },
+    { passive: false }
+  );
+
 
 
 
