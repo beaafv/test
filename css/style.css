@@ -822,6 +822,41 @@ justify-content: space-evenly;
 
 
 @media only screen and (max-width:600px) { 
+    
+    
+    
+input[type=text] {
+  
+  width: 200px;
+  border-radius: 20px;
+  padding:10px;
+
+}
+   
+input[type=email] {
+  
+  width: 200px;
+  border-radius: 20px;
+  padding:10px;
+ 
+
+}
+
+
+input[type=number] {
+  
+  width: 200px;
+  border-radius: 20px;
+  padding:10px;
+  margin:auto;
+}
+input[type=date] {
+  
+  width: 200px;
+  border-radius: 20px;
+  padding:10px;
+ 
+}
 
 
   .form-check {
@@ -872,8 +907,8 @@ justify-content: space-evenly;
   
     }
     
-    .imageawards img{  height: 200px;
-        width: 200px;
+    .imageawards img{  height: 400px;
+        width: 400px;
     overflow-x:hidden;}
 
     
