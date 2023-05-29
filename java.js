@@ -42,29 +42,25 @@ const btn = document.querySelector('.button123');
 
 //  once the button is selected on the packages and services section, it sellects the correspondent radio button option 
 
-function check() {
+function checkBasic () {
   document.getElementById("Basic").checked = true; 
 }
 
 
-  function changeText() {
+  function checkPremium () {
     document.getElementById("Premium").checked = true; 
   }
 
-  function myFunction () {
+  function checkGold () {
+    
     document.getElementById("Gold").checked = true; 
     
   };
+const submit = document.querySelector(".submit1");
 
-  document.querySelector('.button123')
-  .addEventListener(
-    'touchstart',
-    function(e) {
-      document.getElementById("Gold").checked = true;
-      e.preventDefault()
-    },
-    { passive: false }
-  );
+document.querySelector(".bride1").style.textTransform = "capitalize";
+
+document.querySelector(".groom1").style.textTransform = "capitalize";
 
 
 
