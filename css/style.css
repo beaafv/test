@@ -89,7 +89,7 @@ body {
   display: flex; flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
- z-index:-1;
+    z-index: -1;
   position: relative;
   background-attachment: fixed;
 }
@@ -506,7 +506,7 @@ position: relative;
     flex-direction:row;
     flex-wrap: nowrap;
     padding: 20px 100px;
-    z-index: 1000;
+  
   
 }
 
@@ -516,7 +516,7 @@ position: relative;
     animation: zoomIn;
     animation-duration: .80s;
     animation-delay: 0.20s;
-    z-index: 1000px;
+  
 }
 
 .imageawards {
@@ -1102,7 +1102,7 @@ backdrop-filter: none;}
 }
 
 .change #bar3 {
-  transform: translateY(-5px) rotateZ(45deg);
+  transform: translateY(-2px) rotateZ(45deg);
 }
 
 .change-bg {
@@ -1181,13 +1181,17 @@ flex-direction: column;
     color: rgb(0, 0, 0); margin-top: 5px;
     margin-bottom: 10px;
   text-align: center;}
+    
+    .aboutmetext {
+  
+        padding:0px; }
 
    .aboutmetext p i { text-decoration:line-through gray;}
 
   .imageawards img {
-        height: 80px;
-        width: auto;
-        overflow-x: hidden;
+        height: 120px;
+       
+     
       }
   
 
@@ -1513,7 +1517,7 @@ cursor: pointer;
       }
       
       .change #bar3 {
-        transform: translateY(-5px) rotateZ(45deg);
+        transform: translateY(-2px) rotateZ(45deg);
         color: white;
       }
       
