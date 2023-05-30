@@ -3,25 +3,27 @@
 function menuOnClick() {
   document.getElementById("menu-bar").classList.toggle("change");
   document.getElementById("nav").classList.toggle("change");
-  
   document.getElementById("menu-bg").classList.toggle("change-bg");
+  
+ 
+
+};
+
+
+function change() {
+  document.querySelector("#menu1").classList.toggle("change");
+  document.querySelector("#menu-bg").classList.toggle("disappear");
+  document.querySelector("#menu-bar").classList.toggle("change");
+ 
+ 
+
 };
 
 
 
-const firstName= document.querySelector(".bride1");
-
-const lastName = document.querySelector(".groom1");
-
-const weddingDate = document.querySelector(".weddingdate1");
-
-const mobileNumber = document.querySelector(".number1");
-
-const sellectedbtn = document.querySelector('.button123');
 
 
 
- 
 
 
 const submitButton = document.querySelector(".submit1")
@@ -36,13 +38,12 @@ function functionSubmit () {
 
 
 
-const btn = document.querySelector('.button123');
 
 
 
 //  once the button is selected on the packages and services section, it sellects the correspondent radio button option 
 
-function checkBasic () {
+function check () {
   document.getElementById("Basic").checked = true; 
 }
 
@@ -55,15 +56,62 @@ function checkBasic () {
     
     document.getElementById("Gold").checked = true; 
     
-  };
-const submit = document.querySelector(".submit1");
+  }
 
-document.querySelector(".bride1").style.textTransform = "capitalize";
+ 
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+   
 
-document.querySelector(".groom1").style.textTransform = "capitalize";
+  function reveal2() {
+    var reveals = document.querySelectorAll(".reveal2");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active1");
+      } else {
+        reveals[i].classList.remove("active1");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal2);
 
-
-
-
+  function reveal3() {
+    var reveals = document.querySelectorAll(".reveal3");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active3");
+      } else {
+        reveals[i].classList.remove("active3");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal3);
 
   
