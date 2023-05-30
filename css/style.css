@@ -1407,8 +1407,8 @@ flex-wrap: wrap;
 align-items: center;
 padding: 0;
 margin-top: 20px;
-animation: loop1 15s infinite linear;
-width: 5000px;
+animation: loop1 16s infinite ease;
+
 gap:30px;
   }    
 
@@ -1419,8 +1419,8 @@ gap:30px;
     align-items: center;
     padding: 0;
     margin-top: 20px;
-    animation: loopbackwards 15s infinite linear;
-    width: 5000px;
+    animation: loopbackwards 15s infinite ease;
+    
     gap:30px;
       }    
     
