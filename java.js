@@ -100,5 +100,16 @@ function check () {
   window.addEventListener("scroll", reveal3);
 
  
+  document.getElementById("btn").addEventListener("click", changePicture);
+
+function changePicture() {
+  let image = document.querySelector('.imagegallerymobile img');
+  let imagens = ['img/w2.jpg', 'img/w4.jpg','img/w3.jpg', 'img/katelyn-macmillan-MtwNya-3mac-unsplash.jpg'];
+  let random = Math.floor(Math.random() * 4 );
+  image.src = imagens [random];
+};
+
+
+        
 
   
