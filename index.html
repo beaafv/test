@@ -48,37 +48,37 @@
         <!-- the landing page is divided in "parallax" classes, but the actual parallax effect it's only made for the parallax 5,6 and 7-->
         <div class="parallax">
 
-            <!-- two videos on different sizes to display on laptop and mobile devices-->
-            <video id="background-video" autoplay loop muted playsinline controls="false">
-                <source src="img/weddingvideo.mp4" type="video/mp4">
-                </video>
-                <video id="background-video2" autoplay loop muted playsinline controls="false"> 
-                    <source src="img/mobilevideo1.mp4" type="video/mp4">
+        
+                <video id="background-video" autoplay loop muted playsinline controls="false">
+                    <source src="img/weddingvideo.mp4" type="video/mp4">
                     </video>
+                    <video id="background-video2" autoplay loop muted playsinline controls="false"> 
+                        <source src="img/mobilevideo1.mp4" type="video/mp4">
+                        </video>
+                </video>
+         
             
-            
-            <header class="header">
+                    <div class="navbar">
+                        <div class="navbar-toggle" onclick="toggleMenu()">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                        <ul class="navbar-menu" id="navbarMenu">
+                          <li><a href="#navbarmenu">Home</a></li>
+                          <li><a href="#imagegallery">Portfolio</a></li>
+                          <li class="logo"><img src="img/logowhite.png" alt="Logo"></li>
+                          <li><a href="#aboutme">About me</a></li>
+                          <li><a href="#services">Services</a></li>
+                        </ul>
+                      </div>
+                    
+                  
+
+
 
              
-                <div id="menu">
-                    <div id="menu-bar" onclick="menuOnClick()">
-                      <div id="bar1" class="bar" onclick="menuOnClick2"></div>
-                      <div id="bar2" class="bar"></div>
-                      <div id="bar3" class="bar"></div>
-                    </div>
-                    <nav class="nav" id="nav">
-                      <ul id="menu1" onclick="change()">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#aboutme" class="nav-item"> About me</a> </li>
-                        <a href="#" class="logo" > <img src="img/logowhite.png" alt="logo" > </a>
-                        <li><a href="#imagegallery" class="nav-item"> Portfolio </a></li>
-                        <li><a href="#services" class="nav-item">Services</a></li>
-                        
-                      </ul>
-                    </nav> 
-                  </div>
-                  
-                  <div class="menu-bg" id="menu-bg"></div>
+                
 
                 <div class="box">
                     <h1 class="animation">  Wedding Photography </h1>
@@ -110,7 +110,7 @@
 
          <div class="parallax2" > 
                 
-             <h3 id="imagegallery" class="titlePortfolio reveal"> Portfolio </h3>
+             <h3 id="imagegallery" class="titlePortfolio reveal3"> Portfolio </h3>
                 
             
              <div class="imagegallery">  
