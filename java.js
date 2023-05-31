@@ -40,7 +40,6 @@ window.addEventListener('load', function() {
   }
 });
 
-
 const submitButton = document.querySelector(".submit1")
 
 
