@@ -14,14 +14,22 @@ body {
   scroll-snap-type: none;
 
 }
-
+/* navigation and logo styling */
+header { 
+  top:0
+  }
+  
+  .logo img { height: 100px; 
+  width: auto;  
+  top:0;
+  padding: 0;
+  z-index: 1;
+  }
+  
 .navbar {
   position: absolute;
   top: 0;
   left: 0;
- 
- 
-
   z-index: 2;
   display: flex;
   justify-content: space-evenly;
@@ -31,11 +39,11 @@ body {
 }
 
 .navbar-toggle {
-  display: none; /* Hide the hamburger menu icon on larger screens */
+  display: none; 
 }
 
 .navbar-menu {
-  display: flex;
+  display: none;
   font-size: 25px;
   list-style: none;
   padding: 0;
@@ -54,7 +62,6 @@ body {
 .navbar-menu li.logo {
   margin: 0 auto
   
-  ; /* Center the logo horizontally */
 }
 
 
@@ -72,7 +79,7 @@ body {
   position: relative;
   transform: translateY(100px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 0.5s all ease;
 }
 
 .reveal.active{
@@ -85,15 +92,12 @@ body {
 .reveal3 {
   position: relative;
   opacity: 0;
-  transition: 2s all ease;
+  transition: 0.5s all ease;
 }
 
 .reveal3.active3{
   opacity: 1;
 }
-
-
-
 
 
 
@@ -277,7 +281,7 @@ backdrop-filter: blur(1px);}
   text-transform: uppercase; 
   text-shadow: 2px 1px gray ;
   letter-spacing: 5px;
-   margin-top: 400px; 
+   margin-top: 500px; 
   animation: zoomIn;
   animation-duration: .44s;}
 
@@ -336,31 +340,8 @@ to {left: 0px;}
 }
 
 
-/* navigation and logo styling */
-header { 
-top:0
-}
-
-.logo img { height: 100px; 
-width: auto;  
-top:0;
-padding: 0;
-z-index: 1;
-}
-
-
-/* on computer screen */
-
-
-
-
-
-
-
-
-
     
-      
+    
 
 
 /* style buttons */
@@ -989,7 +970,7 @@ z-index: -1;
 
 
 
-
+.imageawards { display: none;}
 
  .box h1 { 
 
@@ -1115,23 +1096,20 @@ li a {
   }
         
 
-
-
-
-      .navbar {
-        height: auto; /* Reset the height for mobile screens */
-        align-items: flex-start; /* Align menu to top */
-        justify-content: center;
+ .navbar {
+    height: auto; 
+    align-items: flex-start; 
+   justify-content: center;
       }
       
-      .navbar-toggle {
-        display: inline-block;
-        cursor: pointer;
-        padding: 10px;
-        position: absolute;
+   .navbar-toggle {
+     display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
       }
       
-      .navbar-toggle span {
+   .navbar-toggle span {
         display: block;
         width: 25px;
         height: 3px;
@@ -1141,12 +1119,11 @@ li a {
       
       
 
-      .navbar-menu {
+  .navbar-menu {
   display: flex;
   flex-direction: column;
   position: fixed;
-  gap:50px;
-
+  gap:40px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   width: 100vw;
@@ -1165,13 +1142,13 @@ li a {
   z-index: 3;
 }
       
-      .navbar-menu li {
-        margin-bottom: 10px;
-          margin-top: 50px;
+ .navbar-menu li {
+   margin-bottom: 10px;
+  margin-top: 50px;
          
       }
       
-      .navbar-menu a {
+   .navbar-menu a {
         color: white;
         text-decoration: none;
         font-size: 25px;
@@ -1202,11 +1179,6 @@ margin-top: 20px;
 
   
 
-
-
-
-
-
 .aboutme {display: flex;
 flex-direction: column;
 align-content: center; 
@@ -1214,13 +1186,12 @@ text-align: center;
 position:relative;
 overflow: hidden;
 width: auto;
-
 padding: 20px 50px;
 gap:10px;
 ;}
 
 .aboutme img{ 
-height: 200px; 
+height: 300px; 
 width: auto;}
 
 
@@ -1236,11 +1207,6 @@ text-align: center;}
 
  .aboutmetext p i { text-decoration:line-through gray;}
 
-.imageawards img {
-      height: 120px;
-     
-   
-    }
 
 
 /* services */
@@ -1256,11 +1222,7 @@ text-align: center;}
 
 
 
-
-  
-
-  .card {
-    
+  .card { 
     width: 350px;
     height: 500px;
     border-radius: 2%;
@@ -1268,7 +1230,6 @@ text-align: center;}
     padding:10;
     line-height: 40px;
 }
-
 
 
 .price {
@@ -1300,14 +1261,13 @@ text-align: center;}
   box-sizing: border-box;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px 30px;
+  padding: 10px 20px;
   transition: 0.5s;
   color: #99A98F;            
   border-radius: 8px;
   text-decoration: none;
   font-size: 22px;
   border-style:solid;
-  margin-top: 20px;
   border-color: #000000;
  
   
@@ -1389,8 +1349,8 @@ text-align: center;
   
 }
 .imagegallerymobile img{
-  width:300px;
-  height: 500px;
+  width:auto;
+  height: 400px;
   margin: auto 0;
   border-radius: 600px 600px 100px 100px;
   
