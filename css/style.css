@@ -10,6 +10,7 @@ body {
   margin:0;
   padding:0;
   overflow-x: hidden;
+ 
   scroll-snap-type: none;
 
 }
@@ -19,7 +20,7 @@ body {
 /*intersection observer animations */
 .reveal{
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(100px);
   opacity: 0;
   transition: 1s all ease;
 }
@@ -361,6 +362,11 @@ li a {
       margin-top: 20px;
     }
 
+#btn {  margin-top: 30px; margin-bottom: 10px;}
+
+
+
+
     .button:hover {
    
       color: white; 
@@ -471,6 +477,9 @@ li a {
   margin-bottom: 100px;
   }
   
+  .imagegallerymobile {
+    display: none;
+  }
 
 .imagegallery .image img { 
     filter: grayscale(80%);
@@ -665,10 +674,8 @@ padding: 0;}
 .price {
   color: black;
   font-size: 25px;
-  position:absolute;
-  bottom: 120px;
-  margin-bottom:10px;
-
+  position: relative;
+margin: auto;
 
 }
 
@@ -1329,7 +1336,7 @@ text-align: center;}
   box-sizing: border-box;
   text-align: center;
   text-transform: uppercase;
-  padding: 15px 40px;
+  padding: 10px 30px;
   transition: 0.5s;
   color: #99A98F;            
   border-radius: 8px;
@@ -1347,7 +1354,7 @@ text-align: center;}
     box-sizing: border-box;
     text-align: center;
     text-transform: uppercase;
-    padding: 15px 40px;
+    padding: 10px 30px;
     transition: 0.5s;
     color: #99A98F;            
     border-radius: 8px;
@@ -1365,7 +1372,7 @@ text-align: center;}
     box-sizing: border-box;
     text-align: center;
     text-transform: uppercase;
-    padding: 15px 40px;
+    padding: 10px 30px;
     transition: 0.5s;
     color: #99A98F;            
     border-radius: 8px;
@@ -1384,7 +1391,7 @@ text-align: center;}
 /* image gallery */
 
 .imagegallery { 
-
+display: none;
 flex-wrap: wrap;
 align-items: center;
 padding: 0;
@@ -1395,7 +1402,7 @@ gap:30px;
 
 
   .imagegallery2 { 
-  
+  display: none;
     flex-wrap: wrap;
     align-items: center;
     padding: 0;
@@ -1406,6 +1413,25 @@ gap:30px;
       }    
     
  
+
+.imagegallerymobile {
+  display: flex;
+  flex-direction: column;
+height: auto;
+  width: 100vw;
+  align-items: center;
+text-align: center;
+
+  
+}
+.imagegallerymobile img{
+  width:300px;
+  height: 500px;
+  margin: auto 0;
+  border-radius: 600px 600px 100px 100px;
+  
+}
+
 
 
 h3 { 
