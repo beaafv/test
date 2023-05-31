@@ -59,6 +59,10 @@ header {
   flex-direction: row;
   
 }
+
+li a { 
+  font-size: 30px;}
+
 .navbar-menu li.logo {
   margin: 0 auto
   
