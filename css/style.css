@@ -14,8 +14,9 @@ body {
 
 }
 
-/*sections styling */
 
+
+/*intersection observer animations */
 .reveal{
   position: relative;
   transform: translateY(150px);
@@ -30,38 +31,22 @@ body {
 
 
 
-
-.reveal2 {
-  position: relative;
-  
-  opacity: 0;
-  transition: 0.7s all ease;
-  
-
-}
-
-.reveal2.active1{
-  
-  opacity: 1;
-}
-
-
 .reveal3 {
   position: relative;
-  
   opacity: 0;
-  transition: 5s all ease;
-  
-
+  transition: 10s all ease;
 }
 
 .reveal3.active3{
-  
   opacity: 1;
 }
 
 
 
+
+
+
+/*sections styling */
 
 .parallax { 
 display: flex; 
@@ -107,6 +92,15 @@ background-size: cover;
 position: relative;
 background-attachment: fixed;
 }
+
+.parallax4 { 
+
+  background: #ffffff;
+  display: flex; 
+  flex-direction: column;
+  overflow: hidden;
+  }
+  
 
 #parallax5 {
 
@@ -161,7 +155,7 @@ overflow-x: hidden;
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
-  animation: typing 3.5s steps(40, end),
+  animation: typing 7s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -176,6 +170,7 @@ overflow-x: hidden;
     animation-delay: 20s;
 }
 
+/*animation typing effect */
 
 @keyframes typing {
   from { width: 0 }
@@ -188,16 +183,6 @@ overflow-x: hidden;
 }
 
 
-
-.parallax4 { 
-
-background: #ffffff;
-display: flex; 
-flex-direction: column;
-
-overflow: hidden;
-
-}
 
 /* parallax 1 items styling */
 
@@ -300,9 +285,6 @@ to {left: 0px;}
 }
 
 
-
-
-
 /* navigation and logo styling */
 header { 
 top:0
@@ -326,6 +308,9 @@ z-index: 1;}
  z-index: 1;}
 
 /* on computer screen */
+
+
+
 .nav ul{ display: flex;
  flex-direction: row;
 justify-content: space-evenly; 
@@ -335,7 +320,12 @@ flex-direction: row;
  top: 0;
 background-color: #ffffff00; 
 align-items: center; 
-z-index: 1000;}
+z-index: 1000;
+
+}
+
+
+
 
 #menu li { list-style-type: none;  }
 
@@ -383,9 +373,8 @@ li a {
 
   .button1 {
     background-image: none;
-    position: absolute;
-    left: 80px;
-    bottom: 50px;
+   
+    margin:auto;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
@@ -406,9 +395,7 @@ li a {
 
   .button12 { 
     background-image: none;
-    position: absolute;
-    left: 80px;
-    bottom: 50px;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
@@ -427,9 +414,8 @@ li a {
   }
   .button123 {
     background-image: none;
-    position: absolute;
-    left: 80px;
-    bottom: 50px;
+    margin: auto;
+   
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
@@ -664,6 +650,8 @@ align-content: center;}
 .content {
   padding: 4px;
   line-height: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content ul { margin-top: 3px;
@@ -678,6 +666,7 @@ padding: 0;}
   font-size: 25px;
   position:absolute;
   bottom: 120px;
+  margin-bottom:10px;
 
 
 }
@@ -712,8 +701,7 @@ padding: 0;}
 
 }
 
-
-/* formulario */
+/* align checkboxes and format form items*/
 
 .formulario { 
 display:flex;
@@ -744,8 +732,8 @@ margin-bottom: 20px;
 
 
 
-/* align checkboxes*/
 
+/* align checkboxes*/
 .form-check {
 display: flex;
 flex-direction: row;
@@ -832,7 +820,7 @@ margin:auto;
 
 
 
-/* format form items*/
+
 
 .formbox h4 { 
 font-size: 30px; 
@@ -1325,6 +1313,8 @@ text-align: center;}
   font-size: 16px;
 }
 
+
+
 .content .title {
   text-transform: uppercase;
   color: #99A98F;
@@ -1334,7 +1324,6 @@ text-align: center;}
 
 .button1 {
   background-image: none;
-  position: absolute;
   background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   text-align: center;
@@ -1348,12 +1337,11 @@ text-align: center;}
   border-style:solid;
   margin-top: 20px;
   border-color: #000000;
-  left:50px;
+ 
   
 }
 .button12 {
-  background-image: none;
-  position: absolute;
+    background-image: none;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
@@ -1368,11 +1356,10 @@ text-align: center;}
     margin-top: 20px;
     border-color: #000000;
     margin-top: 0;
-    left:50px;
+   
 }
 .button123 {
-  background-image: none;
-  position: absolute;
+    background-image: none;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
@@ -1387,16 +1374,10 @@ text-align: center;}
     margin-top: 20px;
     border-color: #000000;
     margin-top: 0;
-    left:50px;
+    
 }
 
 
-
-
-.card:hover{
-  cursor: pointer;
- 
-}
 
 
 /* image gallery */
@@ -1407,8 +1388,8 @@ flex-wrap: wrap;
 align-items: center;
 padding: 0;
 margin-top: 20px;
-animation: loop1 60s infinite ease;
-
+animation: loop1 40s infinite linear;
+width: 5000px;
 gap:30px;
   }    
 
@@ -1419,8 +1400,8 @@ gap:30px;
     align-items: center;
     padding: 0;
     margin-top: 20px;
-    animation: loopbackwards 60s infinite ease;
-    
+    animation: loopbackwards 40s infinite linear;
+    width: 5000px;
     gap:30px;
       }    
     
@@ -1434,7 +1415,6 @@ text-shadow: none;
 letter-spacing: 10px;
 text-transform: uppercase; 
 font-weight: 700;
-
 
 }
   
@@ -1731,4 +1711,3 @@ text-align: center;}
   
 }}
   
-
