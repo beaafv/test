@@ -31,6 +31,15 @@ navbarMenu.addEventListener('click', function(event) {
   }
 });
 
+// Close the menu on page load
+window.addEventListener('load', function() {
+  if (window.innerWidth <= 767) {
+    navbarMenu.style.display = 'none';
+  } else {
+    navbarMenu.style.display = 'flex';
+  }
+});
+
 
 const submitButton = document.querySelector(".submit1")
 
